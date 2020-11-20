@@ -1,0 +1,8 @@
+algorithm direct    # Equivalent to setting 'Algorithm' to 'interior-point'
+outlev iter_verbose # Equivalent to setting 'Display' to 'iter'
+gradopt exact       # Equivalent to setting 'GradObj' to 'on' and 'GradConstr' to 'on'
+hessopt bfgs        # Equivalent to setting 'Hessian' to 'bfgs'
+maxit 1000          # Equivalent to setting 'MaxIter' to 1000
+opttol 1e-6         # Equivalent to setting 'TolFun' to 1e-6
+feastol 1e-6        # Equivalent to setting 'TolCon' to 1e-6
+derivcheck 1        # Perform derivative check on the gradients
